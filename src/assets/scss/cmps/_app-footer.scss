@@ -1,0 +1,71 @@
+.main-footer {
+    background-color: $clr6;
+    color: white;
+    display: grid;
+    grid-template-columns: rem(730px) 1fr;
+    height: 196px;
+    padding: rem(48px) rem(165px);
+
+    .main-details {
+        display: flex;
+        gap: 125px;
+
+        .link-panel {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .logo {
+                img {
+                    width: rem(160px);
+                }
+            }
+
+            .main-nav {
+                display: flex;
+                gap: rem(40px);
+
+                a {
+                    font-size: rem(18px);
+                    font-weight: 600;
+                    line-height: rem(28px);
+                }
+            }
+
+        }
+
+        .address {
+            width: rem(445px);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            p {
+                opacity: 0.6000000238418579;
+                font-size: rem(15px);
+                line-height: rem(25px);
+            }
+        }
+    }
+
+    .social-media {
+        display: grid;
+        justify-items: end;
+
+        .social-links {
+            display: flex;
+            width: 104px;
+            justify-content: space-between;
+
+            a {}
+
+        }
+
+        p {
+            align-self: end;
+            opacity: 0.6000000238418579;
+            font-size: rem(15px);
+            line-height: rem(25px);
+        }
+    }
+}

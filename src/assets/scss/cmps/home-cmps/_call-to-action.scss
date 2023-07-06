@@ -1,0 +1,39 @@
+.call-to-action {
+    background-color: $clr2;
+    color: $clr4;
+    height: rem(200px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    article {
+        display: flex;
+        gap: rem(260px);
+
+
+        .contact-btn {
+            display: flex;
+            align-items: center;
+            height: rem(48px);
+            padding: rem(10px) rem(32.5px);
+
+            color: inherit;
+            background-color: transparent;
+
+            border-radius: 2em;
+            border: 2px solid $clr4;
+
+            font-size: rem(18px);
+            font-weight: 500;
+            line-height: rem(28px);
+        }
+    }
+
+    .pattern-img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+}

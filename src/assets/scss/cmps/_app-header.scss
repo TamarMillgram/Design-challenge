@@ -1,0 +1,49 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    padding-block: rem(76px) 0;
+    padding-inline: rem(165px);
+    color: white;
+
+    .link-panel {
+        display: flex;
+        gap: rem(80px);
+        align-items: center;
+
+        .logo {
+            img {
+                width: rem(160px);
+            }
+        }
+
+        .main-nav {
+            display: flex;
+            gap: rem(40px);
+
+            a {
+                font-size: rem(18px);
+                font-weight: 500;
+                line-height: rem(28px);
+            }
+
+
+        }
+    }
+
+    .contact-btn {
+        display: flex;
+        align-items: center;
+        height: rem(48px);
+        padding: rem(10px) rem(32.5px);
+
+        color: inherit;
+        background-color: transparent;
+
+        border-radius: 2em;
+        border: 2px solid #FFF;
+
+        font-size: rem(18px);
+        font-weight: 500;
+        line-height: rem(28px);
+    }
+}

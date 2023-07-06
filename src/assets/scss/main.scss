@@ -1,0 +1,22 @@
+/* Setup */
+@import 'setup/variables';
+@import 'setup/_functions';
+@import './setup/fonts.scss';
+
+/* Basics */
+@import "basics/_base";
+@import "basics/_helpers";
+@import "basics/_layout";
+
+/* Views */
+@import 'views/_home-page';
+@import 'views/_about';
+
+/* Cmps */
+@import 'cmps/_app-header';
+@import 'cmps/_app-footer';
+
+/* Home Cmps */
+@import 'cmps/home-cmps/_hero';
+@import 'cmps/home-cmps/homeDesc';
+@import 'cmps/home-cmps/call-to-action';
