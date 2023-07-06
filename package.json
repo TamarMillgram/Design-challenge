@@ -1,6 +1,7 @@
 {
   "name": "desgin-challenge",
   "private": true,
+  "homepage": " https://tamatmillgram.github.io/Design-challenge/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
